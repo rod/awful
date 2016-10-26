@@ -3,13 +3,13 @@
 > Get awful like words
 
 ## Install
-```bash
+~~~
 $ npm install --save awful
-```
+~~~
 
 ## Usage
 
-~~~bash
+~~~
 const awful = require('awful');
 
 awful();
@@ -36,11 +36,11 @@ All the words
 
 ## CLI
 
-~~~bash
+~~~
 $npm install --global awful
 ~~~
 
-~~~bash
+~~~
 $ awful --help
 
   Examples
