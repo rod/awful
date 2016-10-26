@@ -40,7 +40,7 @@ All the words
 $npm install --global awful
 ~~~
 
-~~~
+~~~bash
 $ awful --help
 
   Examples
