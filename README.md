@@ -1,6 +1,6 @@
-# Awful
+# Awful [![Build Status](https://travis-ci.org/rod/awful.svg?branch=master)](https://travis-ci.org/rod/awful)
 
-> Get awful like words [![Build Status](https://travis-ci.org/rod/awful.svg?branch=master)](https://travis-ci.org/rod/awful)
+> Get awful like words
 
 ## Install
 ```bash
