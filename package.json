@@ -1,0 +1,23 @@
+{
+  "name": "awful",
+  "version": "1.0.0",
+  "description": "Get awful like words",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "awful",
+    "dreaful",
+    "word",
+    "words",
+    "list",
+    "random",
+    "rand"
+  ],
+  "author": "Rodney Dennis <rodneydennisjr@gmail.com> (http://rod.today)",
+  "license": "MIT"
+}
