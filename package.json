@@ -24,5 +24,6 @@
     "minimist": "^1.2.0",
     "unique-random": "^1.0.0"
   },
-  "bin": "cli.js"
+  "bin": "cli.js",
+  "repository": "rod/awful"
 }

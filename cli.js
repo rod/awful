@@ -20,7 +20,7 @@ if (argv.help) {
     '  ...',
     '',
     'Options',
-    '  --all  Get all the words instead of a random word',
+    '  --all  Get all the words',
   ].join('\n'));
   return;
 }
