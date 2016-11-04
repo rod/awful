@@ -2,10 +2,11 @@ const argv = require('minimist')(process.argv.slice(2));
 const pkg = require('./package.json');
 const awful = require('./');
 
-console.log(argv);
-
 if (argv.help) {
   console.log([
+    '',
+    pkg.description,
+    '',
     'Usage',
     '  $ awful',
     '  miserable',
