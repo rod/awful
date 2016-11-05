@@ -1,6 +1,6 @@
 {
   "name": "awful",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Get words like awful",
   "main": "index.js",
   "scripts": {
