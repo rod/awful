@@ -1,6 +1,6 @@
-# Awful [![Build Status](https://travis-ci.org/rod/awful.svg?branch=master)](https://travis-ci.org/rod/awful)
+# awful [![Build Status](https://travis-ci.org/rod/awful.svg?branch=master)](https://travis-ci.org/rod/awful)
 
-> Get awful like words
+> Get words like awful
 
 ## Install
 ~~~ bash
@@ -13,26 +13,21 @@ $ npm install --save awful
 const awful = require('awful');
 
 awful();
-//=> dreadful
+//=> crummy
 
 awful();
-//=> terrible
+//=> vile
 
 awful.words;
-//=> ['dreadful', 'terrible', ...]
+//=> ['abominable', 'abysmal', ...]
 ~~~
 
 ## API
 
-### awful()
-
-Type: `string`
-Random awful like word.
-
-### awful.words
-
-Type: `array`
-All the words
+|| Type | Description|
+|---|---|---|
+| **awful()** | `string` | Random word like awful |
+| **awful.words** | `array` | All the words |     
 
 ## CLI
 
@@ -43,17 +38,17 @@ $npm install --global awful
 ~~~ bash
 $ awful --help
 
-  Examples
+  Usage
     $ awful
-    miserable
+    crummy
 
     $ awful --all
-    lousy
-    miserable
+    abominable
+    abysmal
     ...
 
   Options
-    --all Get all the words instead of a random word
+    --all Get all the words
 ~~~
 
 ## License
