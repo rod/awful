@@ -1,4 +1,4 @@
-# awful [![Build Status](https://travis-ci.org/rod/awful.svg?branch=master)](https://travis-ci.org/rod/awful)
+# awful [![Travis](https://img.shields.io/travis/rod/awful.svg)]() [![npm](https://img.shields.io/npm/v/awful.svg)]() [![Libraries.io for GitHub](https://img.shields.io/librariesio/github/rod/awful.svg)]()
 
 > Get words like awful
 
