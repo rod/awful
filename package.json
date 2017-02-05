@@ -1,6 +1,6 @@
 {
   "name": "awful",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Get words like awful",
   "scripts": {
     "test": "ava --verbose"
