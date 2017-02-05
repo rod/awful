@@ -1,8 +1,6 @@
-# awful
+# awful [![Travis](https://img.shields.io/travis/rod/awful.svg)]()
 
-[![Travis](https://img.shields.io/travis/rod/awful.svg)]() [![npm](https://img.shields.io/npm/v/awful.svg)]() [![Libraries.io for GitHub](https://img.shields.io/librariesio/github/rod/awful.svg)]()
-
-> Get words like awful
+> Get words like awful 👎
 
 ## Install
 ~~~ bash
@@ -12,24 +10,23 @@ $ npm install --save awful
 ## Usage
 
 ~~~ javascript
-const awful = require('awful');
+var awful = require('awful');
 
-awful();
-//=> crummy
-
-awful();
-//=> vile
-
-awful.words;
-//=> ['abominable', 'abysmal', ...]
+awful.random();
+//=> 'terrible'
 ~~~
 
 ## API
 
-|| Type | Description|
-|---|---|---|
-| **awful()** | `string` | Random word like awful |
-| **awful.words** | `array` | All the words |     
+### .all
+
+Type: `array`
+All the words
+
+### .random()
+
+Type: `string`
+Single random word
 
 ## CLI
 

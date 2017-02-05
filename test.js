@@ -1,10 +1,15 @@
 import test from 'ava';
-import fn from './';
+import x from './';
 
-test('cli > awful returns a word', t => {
-  t.true(fn().length > 0);
+test('awful array should have length greater than zero', t => {
+  t.true(x.all.length > 0);
 });
 
-test('cli > awful.words returns array of words', t => {
-  t.true(Array.isArray(fn.words));
+test('should only return index of words defined in awful array', t => {
+  t.true(x.all.indexOf('awful') !== -1);
+  t.true(x.all.indexOf('amazing') === -1);
+});
+
+test('.random() method should return a word', t => {
+  t.truthy(x.random());
 });

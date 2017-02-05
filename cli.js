@@ -1,38 +1,22 @@
 #!/usr/bin/env node
 'use strict';
+var meow = require('meow');
+var awful = require('./');
 
-const argv = require('minimist')(process.argv.slice(2));
-const pkg = require('./package.json');
-const awful = require('./');
-
-if (argv.help) {
-  console.log([
-    '',
-    pkg.description,
-    '',
-    'Usage',
+var cli = meow({
+  help: [
+    'Examples',
     '  $ awful',
-    '  miserable',
+    '  terrible',
     '',
     '  $ awful --all',
-    '  lousy',
-    '  miserable',
+    '  abominable',
+    '  abysmal',
     '  ...',
     '',
     'Options',
-    '  --all  Get all the words',
-  ].join('\n'));
-  return;
-}
+    '  --all   Get all names instead of a random name'
+  ]
+});
 
-if (argv.version) {
-  console.log(pkg.version);
-  return;
-}
-
-if (argv.all) {
-  console.log(awful.words.join('\n'));
-  return;
-}
-
-console.log(awful());
+console.log(cli.flags.all ? awful.all.join('\n') : awful.random());

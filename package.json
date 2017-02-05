@@ -2,32 +2,27 @@
   "name": "awful",
   "version": "1.0.9",
   "description": "Get words like awful",
-  "main": "index.js",
   "scripts": {
     "test": "ava --verbose"
   },
   "keywords": [
-    "cli-app",
-    "cli",
-    "bin",
     "awful",
-    "dreaful",
-    "word",
+    "dreadful",
+    "terrible",
+    "random",
     "words",
     "list",
-    "random",
-    "rand"
+    "cli"
   ],
   "author": "Rodney Dennis <rodneydennisjr@gmail.com> (http://rod.github.io)",
   "license": "MIT",
-  "dependencies": {
-    "minimist": "^1.2.0",
-    "unique-random-array": "^1.0.0"
-  },
   "bin": "cli.js",
   "repository": "rod/awful",
+  "dependencies": {
+    "meow": "^3.3.0",
+    "unique-random-array": "^1.0.0"
+  },
   "devDependencies": {
-    "ava": "^0.16.0",
-    "chai": "^3.5.0"
+    "ava": "^0.16.0"
   }
 }
