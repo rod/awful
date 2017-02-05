@@ -4,7 +4,7 @@
 
 ## Install
 ~~~ bash
-$ npm install --save awful
+npm install --save awful
 ~~~
 
 ## Usage
@@ -21,33 +21,35 @@ awful.random();
 ### .all
 
 Type: `array`
+
 All the words
 
 ### .random()
 
 Type: `string`
+
 Single random word
 
 ## CLI
 
 ~~~ bash
-$npm install --global awful
+npm install --global awful
 ~~~
 
 ~~~ bash
-$ awful --help
+awful --help
 
-  Usage
-    $ awful
-    crummy
+Usage
+  $ awful
+  crummy
 
-    $ awful --all
-    abominable
-    abysmal
-    ...
+  $ awful --all
+  abominable
+  abysmal
+  ...
 
-  Options
-    --all Get all the words
+Options
+  --all Get all the words
 ~~~
 
 ## License
