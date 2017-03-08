@@ -1,4 +1,4 @@
-# awful [![Build Status](https://travis-ci.yml/rod/awful.svg?branch=master)](https://travis-ci.yml/rod/awful)
+# awful [![Build Status](https://travis-ci.org/rod/awful.svg?branch=master)](https://travis-ci.org/rod/awful)
 
 > 👎 Get words like awful
 
