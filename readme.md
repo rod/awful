@@ -1,6 +1,6 @@
-# awful [![Travis](https://img.shields.io/travis/rod/awful.svg)]()
+# awful [![Build Status](https://travis-ci.yml/rod/awful.svg?branch=master)](https://travis-ci.yml/rod/awful)
 
-> Get words like awful 👎
+> 👎 Get words like awful
 
 ## Install
 ~~~ bash
