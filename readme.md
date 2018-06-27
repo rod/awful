@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/rod/awful.svg?branch=master)](https://travis-ci.org/rod/awful) [![David](https://img.shields.io/david/rod/awful.svg)]() [![David](https://img.shields.io/david/dev/rod/awful.svg)]()
 
-> 👎 Get words like awful
+> 👎 A terrible, horrible, no good, very bad package
 
 ## Install
 ~~~ bash
