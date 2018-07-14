@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 'use strict';
-var meow = require('meow');
-var awful = require('./');
+const meow = require('meow');
+const awful = require('.');
 
-var cli = meow({
+const cli = meow({
   help: [
     'Examples',
     '  $ awful',

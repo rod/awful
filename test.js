@@ -1,5 +1,5 @@
 import test from 'ava';
-import x from './';
+import x from '.';
 
 test('awful array should have length greater than zero', t => {
   t.true(x.all.length > 0);

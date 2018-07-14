@@ -2,9 +2,25 @@
   "name": "awful",
   "version": "2.0.4",
   "description": "Get words like awful",
-  "scripts": {
-    "test": "ava --verbose"
+  "license": "MIT",
+  "repository": "rod/awful",
+  "author": {
+    "name": "Rodney Dennis",
+    "email": "rodneydennisjr@gmail.com",
+    "url": "https://rod.today"
   },
+  "bin": {
+    "awful": "cli.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
   "keywords": [
     "awful",
     "dreadful",
@@ -14,15 +30,15 @@
     "list",
     "cli"
   ],
-  "author": "Rodney Dennis <rodneydennisjr@gmail.com> (http://rod.github.io)",
-  "license": "MIT",
-  "bin": "cli.js",
-  "repository": "rod/awful",
   "dependencies": {
-    "meow": "^3.3.0",
-    "unique-random-array": "^1.0.0"
+    "meow": "^5.0.0",
+    "unique-random-array": "^1.0.1"
   },
   "devDependencies": {
-    "ava": "0.19.1"
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "space": true
   }
 }
