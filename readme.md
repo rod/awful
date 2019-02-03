@@ -1,36 +1,44 @@
-# awful
-
-[![Build Status](https://travis-ci.org/rod/awful.svg?branch=master)](https://travis-ci.org/rod/awful) [![David](https://img.shields.io/david/rod/awful.svg)]() [![David](https://img.shields.io/david/dev/rod/awful.svg)]()
+# awful [![Build Status](https://travis-ci.org/rod/awful.svg?branch=master)](https://travis-ci.org/rod/awful)
 
 > 👎 A terrible, horrible, no good, very bad npm package
 
+
 ## Install
 ~~~ bash
-npm install --save awful
+npm install [--global] awful
 ~~~
+
 
 ## Usage
 
 ~~~ javascript
-var awful = require('awful');
+const awful = require('awful');
 
 awful.random();
 //=> 'terrible'
+
+awful.random();
+//=> 'no good'
+
+awful.all
+//=> ['abominable', 'abysmal', 'appalling', ...]
 ~~~
+
 
 ## API
 
-### .all
+### `.all`
 
-Type: `array`
+Type: `Array`
 
-All the words
+All the words in alphabetical order.
 
-### .random()
+### `.random()`
 
-Type: `string`
+- Type: `Function`
 
-Single random word
+- Single random word.
+
 
 ## CLI
 
@@ -53,6 +61,10 @@ Usage
 Options
   --all Get all the words
 ~~~
+
+
+## Want the opposite of this package?
+- [superb](https://github.com/sindresorhus/superb)/[superb-cli](https://github.com/sindresorhus/superb-cli) - Get superb like words
 
 ## License
 MIT © [Rodney Dennis](https://github.com/rod)

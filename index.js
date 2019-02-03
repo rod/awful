@@ -1,6 +1,6 @@
 'use strict';
 const uniqueRandomArray = require('unique-random-array');
-const awful = require('./awful.json');
+const words = require('./words.json');
 
-exports.all = awful;
-exports.random = uniqueRandomArray(awful);
+exports.all = words;
+exports.random = uniqueRandomArray(words);

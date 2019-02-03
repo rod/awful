@@ -1,13 +1,13 @@
 {
   "name": "awful",
   "version": "2.1.0",
-  "description": "Get words like awful",
+  "description": "👎 A terrible, horrible, no good, very bad npm package",
   "license": "MIT",
   "repository": "rod/awful",
   "author": {
     "name": "Rodney Dennis",
     "email": "rodneydennisjr@gmail.com",
-    "url": "https://rod.today"
+    "url": "https://rod.sh"
   },
   "bin": {
     "awful": "cli.js"
@@ -19,7 +19,9 @@
     "test": "xo && ava"
   },
   "files": [
-    "cli.js"
+    "index.js",
+    "cli.js",
+    "words.json"
   ],
   "keywords": [
     "awful",
@@ -35,8 +37,9 @@
     "unique-random-array": "^1.0.1"
   },
   "devDependencies": {
-    "ava": "*",
-    "xo": "*"
+    "ava": "^0.16.0",
+    "execa": "^1.0.0",
+    "xo": "^0.16.0"
   },
   "xo": {
     "space": true

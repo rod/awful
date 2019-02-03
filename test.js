@@ -1,15 +1,17 @@
 import test from 'ava';
-import x from '.';
+import execa from 'execa';
+import awful from '.';
 
-test('awful array should have length greater than zero', t => {
-  t.true(x.all.length > 0);
+// API
+test('api', t => {
+  t.true(awful.random().length > 0);
+  t.true(Array.isArray(awful.all));
+  t.true(awful.all[3].length > 0);
 });
 
-test('should only return index of words defined in awful array', t => {
-  t.true(x.all.indexOf('awful') !== -1);
-  t.true(x.all.indexOf('amazing') === -1);
-});
+// CLI
 
-test('.random() method should return a word', t => {
-  t.truthy(x.random());
+test('cli', async t => {
+  const {stdout} = await execa('./cli.js');
+  t.true(stdout.length > 0);
 });
